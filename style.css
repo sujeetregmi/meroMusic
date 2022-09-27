@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.container{
+    padding:2px 10px;
+}
+
+header{
+    background-color: rgb(98, 190, 246);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    -webkit-box-shadow:0px 18px 9px -9px rgb(186, 127, 0);
+    box-shadow:0px 18px 9px -9px rgb(186, 127, 0);
+    -moz-box-shadow:0px 18px 9px -9px rgb(186, 127, 0);
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-container{
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-weight: 600;
+    color: white;
+}
+.logo span{
+    color: rgb(23, 5, 69);
+}
+.nav-items{
+    display: flex;
+    padding: 16px 10px;
+    gap: 32px;
+    font-size: 24px;
+    align-items: center;
+    justify-items: center;
+}
+.nav-items a li{
+    border-bottom: 3px solid transparent;
+    transition: 0.2s ease-in-out;
+}
+
+.nav-items a li:hover{
+    border-bottom: 3px solid white;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    border-color: rgb(23, 5, 69);  
+}
+
+.hero-section{
+    background-image: url(/images/pexels-vishnu-r-nair-1105666.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    color: white;
+    place-items: center;
+    text-align: center;
+    padding: 30px;
+
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    place-items: center;
+}
+.hero-container h1{
+    font-size: 80px;
+}
+.hero-container h2{
+    font-size: 48px;
+}
+.hero-container p{
+    font-size: 32px;
+}
+.hero-container button{
+    font-size: 24px;
+    padding: 16px;
+    color: white;
+    background-color: black; 
+    border: none;
+    border-radius: 10px;
+    width: fit-content;
+}
+.hero-container button:hover{
+    font-size: 24px;
+    padding: 16px;
+    color: white;
+    background-color: rgb(0, 179, 6); 
+    transition: 0.3s ease-in-out;
+    border: none;
+    border-radius: 10px;
+}
