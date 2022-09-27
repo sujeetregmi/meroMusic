@@ -124,7 +124,9 @@ a{
     justify-content: center;
     color: white;
 }
-
+.music-container h3{
+    text-align: center;
+}
 .primary-btn{
     padding: 5px 15px;
     border: none;
@@ -166,4 +168,71 @@ a{
     width: 70%;
     height: auto;
 }
- 
+
+.video-section{
+    background-image: url(/images/music-7238254.jpg);
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+.video-container{
+    display: grid;
+    gap: 50px;
+    align-items: center;
+    place-items: center;
+    
+    
+    
+}
+.video-container h2{
+    font-size: 36px;
+}
+.video-container p{
+    font-size: 24px;
+    padding: 0px 150px;
+    text-align: center;
+    
+}
+
+.pricing{
+    display: flex;
+    justify-content: space-between;
+}
+.visa-card{
+    display: grid;
+    align-items: center;
+    place-items: center;
+    justify-content: center;
+}
+
+.price-description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.price-description p{
+    font-size: 24px;
+}
+.price-description button{
+    height: fit-content;
+    width: fit-content;
+}
+
+
+
+.footer-copyright{
+    display: grid;
+    place-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+}
+.footer-copyright p{
+    color: white;
+}
