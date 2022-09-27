@@ -21,11 +21,10 @@ header{
     position: sticky;
     top: 0;
     z-index: 100;
-    -webkit-box-shadow:0px 18px 9px -9px rgb(186, 127, 0);
-    box-shadow:0px 18px 9px -9px rgb(186, 127, 0);
-    -moz-box-shadow:0px 18px 9px -9px rgb(186, 127, 0);
+    -webkit-box-shadow:0px 18px 9px -9px rgb(27, 18, 0);
+    box-shadow:0px 18px 9px -9px rgb(27, 18, 0);
+    -moz-box-shadow:0px 18px 9px -9px rgb(27, 18, 0);
 }
-
 ul{
     list-style: none;
 }
@@ -97,7 +96,7 @@ a{
 }
 .hero-container button{
     font-size: 24px;
-    padding: 16px;
+    padding: 5px 15px;
     color: white;
     background-color: black; 
     border: none;
@@ -106,10 +105,65 @@ a{
 }
 .hero-container button:hover{
     font-size: 24px;
-    padding: 16px;
+    padding:5px 15px;
     color: white;
     background-color: rgb(0, 179, 6); 
     transition: 0.3s ease-in-out;
     border: none;
     border-radius: 10px;
 }
+.music-section{
+    background-color: rgb(11, 121, 195);
+    padding-top: 50px;
+}
+.music-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.primary-btn{
+    padding: 5px 15px;
+    border: none;
+    background:black;
+    font-size: 24px;
+    border-radius: 10px;
+    color: white;
+}
+.primary-btn:hover{
+    padding: 5px 15px;
+    border: none;
+    background:rgb(0, 179, 6);
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    font-size: 24px;
+    color: white;
+}
+
+.mockup-img img{
+   position: relative;
+   margin-top: -350px;
+   top: 350px;
+   width: 100%;
+   height: auto;
+}
+
+.about-music-container{
+    gap: 30px;
+    display: grid;
+    place-items: center;
+    padding-top: 400px;
+}
+.macbookpro-img{
+    display: grid;
+    place-items:center;
+    align-items: center;
+}
+.macbookpro-img img{
+    width: 70%;
+    height: auto;
+}
+ 
